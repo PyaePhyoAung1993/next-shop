@@ -24,7 +24,7 @@ export default function ProductScreen() {
     return <div>Product not fount</div>;
   }
   return (
-    <Layout title={product.name}>
+    <Layout title={product.name} description={product.description}>
       <div className={classes.section}>
         <Grid container spacing={1}>
           <Grid item md={6} xs={12}>
