@@ -39,7 +39,7 @@ export default function ProductScreen() {
             </Card>
           </Grid>
 
-          <Grid item md={6} xs={12}>
+          <Grid item md={3} xs={12}>
             <List>
               <ListItem>
                 <Typography>Category : {product.category}</Typography>
@@ -55,16 +55,9 @@ export default function ProductScreen() {
               <ListItem>
                 <Typography>Description : {product.description}</Typography>
               </ListItem>
-              <ListItem>
-                <Typography>Price : ${product.price}</Typography>
-              </ListItem>
-              <ListItem>
-                <Typography>
-                  {product.countInStock > 0 ? "In Stock " : "Unavailable"}
-                </Typography>
-              </ListItem>
             </List>
-            <div className={classes.margin}>
+          </Grid>
+          {/* <div className={classes.margin}>
               <Button
                 className={classes.marginleftt}
                 variant="outlined"
@@ -82,7 +75,26 @@ export default function ProductScreen() {
               >
                 ADD TO CART
               </Button>
-            </div>
+            </div> */}
+          <Grid item md={3} xs={12}>
+            <Card>
+              <List>
+                <ListItem>
+                  <Typography>Price : ${product.price}</Typography>
+                </ListItem>
+                <ListItem>
+                  <Typography>
+                    Status :{" "}
+                    {product.countInStock > 0 ? "In Stock " : "Unavailable"}
+                  </Typography>
+                </ListItem>
+                <ListItem>
+                  <Button fullWidth variant="contained" color="primary">
+                    ADD TO CART
+                  </Button>
+                </ListItem>
+              </List>
+            </Card>
           </Grid>
         </Grid>
       </div>
