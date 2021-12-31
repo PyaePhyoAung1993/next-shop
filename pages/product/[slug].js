@@ -63,26 +63,26 @@ export default function ProductScreen() {
                   {product.countInStock > 0 ? "In Stock " : "Unavailable"}
                 </Typography>
               </ListItem>
-              <div className={classes.margin}>
-                <Button
-                  className={classes.marginleftt}
-                  variant="outlined"
-                  color="primarty"
-                >
-                  <NextLink href="/" passHref>
-                    <Link>BACK</Link>
-                  </NextLink>
-                </Button>
-
-                <Button
-                  className={classes.marginleft}
-                  variant="contained"
-                  color="primary"
-                >
-                  ADD TO CART
-                </Button>
-              </div>
             </List>
+            <div className={classes.margin}>
+              <Button
+                className={classes.marginleftt}
+                variant="outlined"
+                color="primarty"
+              >
+                <NextLink href="/" passHref>
+                  <Link>BACK</Link>
+                </NextLink>
+              </Button>
+
+              <Button
+                className={classes.marginleft}
+                variant="contained"
+                color="primary"
+              >
+                ADD TO CART
+              </Button>
+            </div>
           </Grid>
         </Grid>
       </div>
