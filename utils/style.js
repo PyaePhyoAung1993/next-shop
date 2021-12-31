@@ -27,11 +27,9 @@ const useStyles = makeStyles({
     marginTop: 180,
   },
   marginleft: {
-    marginLeft: 150,
-  },
-  marginleftt: {
     marginLeft: 20,
   },
+
   main: {
     minHeight: "80vh",
   },
