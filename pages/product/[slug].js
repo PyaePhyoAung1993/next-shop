@@ -70,7 +70,7 @@ export default function ProductScreen() {
                   color="primarty"
                 >
                   <NextLink href="/" passHref>
-                    <Link>back to product</Link>
+                    <Link>BACK</Link>
                   </NextLink>
                 </Button>
 
