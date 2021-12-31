@@ -31,7 +31,7 @@ export default function ProductScreen() {
             <Card>
               <Image
                 src={product.image}
-                alt={product.name}
+                alt="img"
                 width={640}
                 height={500}
                 layout="responsive"

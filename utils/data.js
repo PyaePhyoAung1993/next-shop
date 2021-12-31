@@ -90,7 +90,7 @@ const data = {
     },
     {
       name: "Classic Pants",
-      slug: "classic-pants",
+      slug: "a",
       category: "Pants",
       image: "/images/product/product21.png",
       price: 75,
@@ -102,7 +102,7 @@ const data = {
     },
     {
       name: "Classic Pants",
-      slug: "classic-pants",
+      slug: "b",
       category: "Pants",
       image: "/images/product/product22.png",
       price: 75,
@@ -114,7 +114,7 @@ const data = {
     },
     {
       name: "Classic Pants",
-      slug: "classic-pants",
+      slug: "c",
       category: "Pants",
       image: "/images/product/product26.png",
       price: 75,
@@ -126,7 +126,7 @@ const data = {
     },
     {
       name: "Classic Pants",
-      slug: "classic-pants",
+      slug: "d",
       category: "Pants",
       image: "/images/product/product24.png",
       price: 75,
@@ -138,7 +138,7 @@ const data = {
     },
     {
       name: "Classic Pants",
-      slug: "classic-pants",
+      slug: "e",
       category: "Pants",
       image: "/images/product/product25.png",
       price: 75,
