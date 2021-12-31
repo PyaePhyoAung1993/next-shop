@@ -2,8 +2,8 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
-    width: 270,
-    height: 300,
+    width: 280,
+    height: 310,
   },
 
   navbar: {
