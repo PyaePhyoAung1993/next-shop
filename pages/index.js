@@ -1,6 +1,5 @@
-import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+
 import Button from "@material-ui/core/Button";
 import Layout from "../components/Layout";
 import NextLink from "next/link";
@@ -13,11 +12,9 @@ import {
   CardContent,
   CardMedia,
   Grid,
-  makeStyles,
   Typography,
 } from "@material-ui/core";
 import data from "../utils/data";
-import Test from "./test";
 
 export default function Home() {
   const classes = useStyles();
